@@ -1,0 +1,15 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Jacquard 12", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#root,
+body,
+html {
+    background-color: rgb(130, 54, 54);
+    min-height: 100vh
+}

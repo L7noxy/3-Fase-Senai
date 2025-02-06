@@ -1,0 +1,7 @@
+.container-body{
+    height: 20rem;
+    background-color: rgb(255, 165, 91);
+    text-align: center;
+    min-height: calc(100vh - 60px);
+}
+

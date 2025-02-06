@@ -1,0 +1,10 @@
+.Container-Header{
+    background-color: rgb(116, 233, 204);
+    height: 60px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
