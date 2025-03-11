@@ -1,0 +1,4 @@
+.cardMateriais{
+    display: flex;
+    flex-wrap: wrap;
+}
