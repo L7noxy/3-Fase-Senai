@@ -10,6 +10,10 @@
 #root,
 body,
 html {
-    background-color: rgb(111, 171, 162);
+    background-image: url(./img/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    backdrop-filter: blur(10px);
+    background-size: cover;
     min-height: 100vh
 }

@@ -61,10 +61,11 @@ export default function Materiais() {
               onChange={() => setUnidade(event.target.value)}
             />
           </div>
-          <button onClick={CadastrarMateriais}>Cadastrar</button>
+          <button onClick={CadastrarMateriais} className='button'>Cadastrar</button>          
+          <h2>estoque</h2>
         </div>
         <div className="card-materiais">
-          <h2>estoque</h2>
+
           <div className="cardMateriais">
             {materiais.map((m) => (
               <CardMaterias key={m.id} material={m} />

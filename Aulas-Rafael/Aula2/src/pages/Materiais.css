@@ -1,4 +1,84 @@
+*{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+
 .cardMateriais{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+.container-materiais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formMateriais {
+    background-color: #070A1D;
+    border: 1px solid #38A3A5;
+    width: 350px;
+    backdrop-filter: blur(90px);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #333;
+}
+
+.input-container {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-container label {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.button {
+    width: 100%;
+    background: #C7F9CC;
+    color: #540000;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #0056b3;
+    color: #ffffff;
+}
+
+h2{
+    padding: 20px;
 }
